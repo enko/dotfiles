@@ -20,10 +20,9 @@ export XSESSION="gnome"
 export LANG="de_DE.UTF-8"
 export EDITOR="emacsclient -c -t --alternate-editor=nano"
 export BROWSER="firefox"
-export KDEDIRS="/home/tim/.local"
 export PAGER="less"
 export PALUDIS_OPTIONS="--log-level warning"
-export XMMS_PATH="unix:///tmp/xmms-ipc-tim"
+export XMMS_PATH="unix:///tmp/xmms-ipc-enko"
 fpath=(~/.zsh/completion $fpath)
 
 # completion system
