@@ -113,6 +113,7 @@ done
 for opt mod in a  stat    \
     a  zpty    \
     ap zprof   \
+    ap math    \
     ap mapfile ; do
     zmodload -${opt} zsh/${mod} ${mod}
 done ; unset opt mod

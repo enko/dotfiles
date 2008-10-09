@@ -22,6 +22,8 @@ source $ZSHDIR/.zsh/zshkey.sh
 
 source $ZSHDIR/.zsh/zshscreen.sh
 
+source $ZSHDIR/.zsh/delete-to.sh
+
 if [[ $UID -gt 0 ]]; then
      initxmms2
 fi;
