@@ -1,6 +1,6 @@
 # Created by newuser for 4.3.2
 
-PATH="/usr/local/bin:/usr/bin:/bin:/usr/games/bin:/sbin:/usr/sbin:/usr/kde/svn/bin:/usr/kde/3.5/bin"
+PATH="/opt/java/bin:/usr/local/bin:/usr/bin:/bin:/usr/games/bin:/sbin:/usr/sbin:/usr/kde/svn/bin:/usr/kde/3.5/bin"
 export PATH="$HOME/.local/bin:$PATH"
 
 ZSHDIR="$HOME"

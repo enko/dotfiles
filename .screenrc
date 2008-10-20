@@ -1,0 +1,9 @@
+# screen -t emacs 10 emacs
+
+# shell -zsh 
+defutf8 on
+escape ^Ta
+
+hardstatus off
+caption always           "%{=u kr} %h %-048= [ %l | %c | %D %d %M %Y ]"
+hardstatus alwayslastline "%{= db}%{= kR} %-Lw%{= Kk} %n%f %t %{-}%+Lw %=%{= dd}"
