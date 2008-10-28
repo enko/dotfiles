@@ -1,0 +1,204 @@
+(setq sig-alist '(
+("dunearakis" .
+"Arrakis teaches the attitude of the knife - chopping off what's
+incomplete and saying: \"Now it's complete because it's ended here.\"
+                -- Muad'dib, \"Dune\"")
+("imago" .
+"Reality is for people who lack imagination.")
+("stroustrup1" . 
+"C makes it easy for you to shoot yourself in the foot.  C++ makes that
+harder, but when you do, it blows away your whole leg.
+	    -- Bjarne Stroustrup"
+)
+("breslin" .
+"Football is a game designed to keep coalminers off the streets.
+	     -- Jimmy Breslin")
+("lawyers" .
+"Q:	lHow many lawyers does it take to change a light bulb?
+A:	You won't find a lawyer who can change a light bulb.  Now, if
+	you're looking for a lawyer to screw a light bulb...")
+("afrance" .
+"When a thing has been said and well, have no 
+scruple. Take it and copy it.
+	      -- Anatole France")
+("baez" .
+"The easiest kind of relationship for me is with 
+ten thousand people. The hardest is with one.
+    	     -- Joan Baez")
+("baudelaire" .
+"It is by universal misunderstanding that all agree. For 
+if, by ill luck, people understood each other, they 
+would never agree.	-- Charles Baudelaire")
+( "caesar" .
+"I love treason but hate a traitor.
+                -- Gaius Julius Caesar" )
+( "manson3" .
+"I don't like the drugs, but the drugs like me.
+  	-- Marilyn Manson")
+( "manson2" .
+"Kill your god, kill your TV.
+     	  -- Marilyn Manson")
+( "hitchcock" .
+"Seeing a murder on television... can help work off one's
+antagonisms. And if you haven't any antagonisms, the commercials will
+give you some. -- Alfred Hitchcock")
+( "manson" .
+"Times have not become more violent. They have just become more televised.
+	     -- Marilyn Manson")
+( "bush2" .
+"\"Our enemies are innovative and resourceful, and so are we. They never stop
+thinking about new ways to harm our country and our people, and neither do we.\"
+George W. Bush, August 5, 2004, Washington, D.C")
+( "bofh1" .
+"BOFH Excuse #313:
+your process is not ISO 9000 compliant")
+( "mccoy" .
+"Compassion -- that's the one things no machine ever had.  Maybe it's
+the one thing that keeps men ahead of them.
+                -- McCoy, \"The Ultimate Computer\", stardate 4731.3")
+( "spock3" .
+"Change is the essential process of all existence.
+		-- Spock, \"Let That Be Your Last Battlefield\", stardate 5730.2")
+( "dangertools" .
+"dangertools | raw: Jeder muss an etwas glauben
+dangertools | Ich glaub ich trink noch einen ")
+( "adenauer" .
+"We all live under the same sky, but we don't all have the same horizon.
+	      -- Dr. Konrad Adenauer")
+( "franklin" .
+"Who is rich? He that is content. Who is that? Nobody.
+  	     -- Benjamin Franklin")
+( "schneier" .
+"Bruce Schneier has got a secure studiVZ account.")
+( "allen" .
+"It's not that afraid to die. I just don`t wat to be there when it
+happens.  
+		-- Woody Allen")
+( "morsepass" .
+"As of next week, passwords will be entered in Morse code.")
+( "jucker" .
+"Viele suchen die Wunderblume
+anstatt das Wunder der Blume.
+	-- Ernst Jucker")
+( "pratchett2" .
+"People whose concept of ancient history is the first series of Star Trek
+may be treated with patience, because it's usually not their fault they
+were reduced to getting their education from school.
+        -- (Terry Pratchett, alt.books.pratchett)")
+( "spock2" .
+"Every living thing wants to survive.
+                -- Spock, \"The Ultimate Computer\", stardate 4731.3")
+( "pluto" .
+"When I was young, Pluto was still a planet.")
+( "lawyers" .
+"Know how to save 5 drowning lawyers?
+-- No?
+GOOD!")
+( "Tolkien" .
+"It's a dangerous business going out your front door.
+     -- J.R.R. Tolkien")
+( "chuck" .
+"Chuck Norris doesn't believe in Germany.")
+( "windows" .
+"The only thing worse than X Windows: (X Windows) - X")
+( "spock" .
+"I'm frequently appalled by the low regard you Earthmen have for life.
+                -- Spock, \"The Galileo Seven\", stardate 2822.3")
+( "bohr" .
+"The opposite of a correct statement is a false statement. But the
+opposite of a profound truth may well be another profound truth.
+	    -- Nils Bohr")
+( "frost" .
+"The reason why worry kills more people than work is that more people worry than work.
+      	   -- Robert Frost")
+( "bush" .
+" WASHINGTON POST: Why do you think bin Laden has not been caught?
+ George W. Bush: Because he's hiding.")
+( "funktion" .
+"Treffen sich zwei Funktionen.
+Sagt die eine: „Verschwinde oder ich differenzier' dich!“
+Erwidert die andere: „Ätsch, ich bin exponentiell!“")
+( "letterman" .
+"Everyone has a purpose in life.  Perhaps yours is watching television.
+- David Letterman")
+( "nbohr" .
+"We are all agreed that your theory is crazy.  The question which divides us is
+whether it is crazy enough to have a chance of being correct.  My own feeling
+is that it is not crazy enough.
+                -- Niels Bohr")
+( "wilde" .
+"When the gods wish to punish us, they answer to our prayers.
+     	 -- Oscar Wilde")
+( "girl" .
+"A girl's conscience doesn't really keep her from doing anything wrong--
+it merely keeps her from enjoying it.")
+( "duct" .
+"Duct tape is like the force. It has a light side, a dark side, and it
+holds the universe together....
+      	  -- Carl Zwanzig")
+( "unk" .
+"Wenn Scheiße wertvoll wäre, kämen die armen leute ohne Arschlöcher zur
+Welt")
+( "sui" .
+"wenn man lieder oft genug re-encodet klingen sie alle nach trashmetal :>
+	-- sui in gentoo-anfaenger")
+( "kubiziel" .
+"alias vim=\"wine /mnt/windows/Programme/MS Office/word.exe\"
+      -- Jens Kubiziel in lugjena")
+( "Long" .
+"Always store beer in a dark place.
+       	     -- Lazarus Long")
+( "pratchett" .
+"As far as I'm aware I'm not specifically banned anywhere in the USA, and
+am rather depressed about it.  Surely some of you guys can do
+*something?*
+        -- (Terry Pratchett, alt.books.pratchett)")
+( "keller" .
+"''random'' text isn't random, you're just too dumb to
+recognize the pattern.
+     -- Keith Keller")
+( "gwyn1" .
+"The idea that an abitrary naive human should be able to properly use a given
+tool without training or understanding is even more wrong for computing than
+it is for other tools (e.g. autombiles, airplanes, guns, power saws).
+      -- Doug Gwyn")
+( "baumol" .
+"If all the world's economists were laid end to end, we wouldn't reach a conclusion.
+       -- Wiliam Baumol")
+( "twain" .
+"When in doubt, tell the truth.
+		-- Mark Twain")
+( "nietzsche2" .
+"You need chaos in your soul to give birth to a dancing star
+    	 --Friedrich Nietzsche")
+( "rwil" .
+"God requireth not a uniformity of religion. 
+    -- Roger Williams")
+( "nietzsche" .
+"Whoever fights monsters should see to it that in the process he does not
+become a monster.  And when you look into an abyss, the abyss also looks
+into you. 
+     -- Friedrich Nietzsche")
+( "solo" .
+"Don't everyone thank me at once! 
+     -- Han Solo")
+( "tty" .
+"Beware of the new TTY code!")
+( "2" .
+"Its later than you think.")
+( "schmitt" .
+"If you mess with a thing long enough, It'll break. 
+       -- Schmitt")
+( "miniskirt" .
+"Simulations are like miniskirts, they show a lot and hide the essentials.")
+( "nude" .
+"If God had wanted you to go around nude, He would have given you bigger hands")
+( "zappa" .
+"Writing about music is like dancing about architecture.
+	-- Frank Zappa")
+( "1" .
+"New crypt. See /usr/news/crypt.")
+))
+
+(setq sig-name-alist nil)
+(setq sig-regexp-alist nil)
