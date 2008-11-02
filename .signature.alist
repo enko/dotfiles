@@ -1,4 +1,8 @@
 (setq sig-alist '(
+("novinson".
+"Novinson's Revolutionary Discovery:. 
+        When comes the revolution, things will be different --
+        not better, just different.")
 ("dunearakis" .
 "Arrakis teaches the attitude of the knife - chopping off what's
 incomplete and saying: \"Now it's complete because it's ended here.\"
