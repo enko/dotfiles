@@ -1,0 +1,65 @@
+#
+# Folder definition file
+# This file is generated automatically by Wanderlust/2.15.5 (Almost Unreal).
+#
+# If you edit this file by hand, be sure that comment lines
+# will be washed out by wl-fldmgr.
+#
+
+%INBOX	"IBX Inbox"
+%INBOX/JungeWelt	"JungeWelt"
+%INBOX/Rechnungen	"RN Rechnungen"
+%INBOX/ExpertExchange   "EE ExpertExchange"
+Verteiler{
+	%INBOX/Verteiler/wanderlust		"VWL  Wanderlust"
+	%INBOX/Verteiler/gentoo/gentoo-server	"VGS  Gentoo Server"
+	%INBOX/Verteiler/conkeror		"VCO Conkeror"
+	%INBOX/Verteiler/BDP-News		"VBN  BDP News"
+	%INBOX/Verteiler/BDP-InternetRedaktion	"VBI  BDP Internet"
+	%INBOX/Verteiler/thurbdpnews		"VTBN BDP News Thüringen"
+	%INBOX/Verteiler/chaostreffs		"VCT  Chaostreffs"
+	%INBOX/Verteiler/gentoo/gentoo-announce	"VGA  Gentoo Ankündigungen"
+	%INBOX/Verteiler/jdev			"VJD  jDev"
+	%INBOX/Verteiler/gentoo/gentoo-gwn	"VGW  Gentoo GWN"
+	%INBOX/Verteiler/Help-Emacs-Windows	"VHEW help.emacs.windows"
+	%INBOX/Verteiler/php classes	"VPC  PHP Classes"
+	%INBOX/Verteiler/hbfi02b	"VHB  HBFI02b"
+	%INBOX/Verteiler/Freshmeat	"VFM  Freshmeat"
+	%INBOX/Verteiler/FAPA		"VFA  FAPA"
+	%INBOX/Verteiler/xmonad		"VXM  xmonad"
+	%INBOX/Verteiler/zsh		"VZS  ZSH"
+	%INBOX/Verteiler/thurvern	"VTV  Thueringer Vernetzung"
+}
+%INBOX/Benachrichtigungen	"BNA Benachrichtigungen"
+%INBOX/Systemmeldungen	"SYS Systemmeldungen"
+%INBOX/Systemmeldungen/Cron	"CRO Cronmeldungen"
+%INBOX/Systemmeldungen/contentfilter	"CON Contentscanner"
+%INBOX/Systemmeldungen/Backup	"BAK Backupreporte"
+Archiv{
+	%INBOX/Archiv	"ARC Archiv für alles"
+	%INBOX/Archiv/BDP	"BDP BDP"
+	%INBOX/Archiv/Server4You	"S4Y Server4you"
+	%INBOX/Archiv/Registrierungsdaten	"REG Reg-Daten"
+	%INBOX/Bugs	"BUG Bugreports"
+	%INBOX/Archiv/Amazon	"AMZ Amazon"
+}
+MiscTrash{
+	%INBOX/Spam	"SPM Schbem"
+}
+MailDirs{
+	%INBOX/Drafts	"DRT Entwuerfe"
+	%INBOX/Sent	"SNT Verschickt"
+	%INBOX/Trash	"TRA Wasteland"
+}
+News{
+	-de.comp.lang.python
+	-alt.magick
+	-thur.org.lug
+	-thur.jena
+	-alt.magick.chaos
+}
++/
+
+# petname definition (access group, folder in access group)
+
+# end of file.
