@@ -8,6 +8,7 @@ alias _jabber="screen -c ~/.startmcabber -S jabber"
 alias startemacs="screen -c ~/.screenrcemacs -dmS emacs"
 alias e="emacsclient -t -c"
 alias x="xmms2"
+alias hibernate="sudo hibernate"
 alias -g G=' | grep'
 alias -g L=' | less'
 alias -g H=' | head'

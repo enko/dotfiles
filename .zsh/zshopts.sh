@@ -19,7 +19,7 @@ setopt \
 export XSESSION="gnome"
 export LANG="de_DE.UTF-8"
 export EDITOR="emacsclient -c -t --alternate-editor=nano"
-export BROWSER="firefox"
+export BROWSER="conkeror"
 export PAGER="less"
 export PALUDIS_OPTIONS="--log-level warning"
 export XMMS_PATH="unix:///tmp/xmms-ipc-enko"
@@ -133,3 +133,8 @@ HISTFILE=~/.histfile
 HISTSIZE=9000
 SAVEHIST=9000
 
+
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' formats '%s:%b '
+zstyle ':vcs_info:*' enable git cvs svn hg bzr
+vcs_info

@@ -124,6 +124,11 @@
 
 (setq default-mime-charset "utf-8")
 
+;; do not split attachments!
+
+(setq mime-edit-split-message nil)
+
+
 ;; Auto Refile
 
 (setq wl-refile-rule-alist
