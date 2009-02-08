@@ -40,7 +40,7 @@
 
 (defun openTodoList() 
   (interactive) 
-  (find-file "~/daten/.todo.org")
+  (find-file "~/.todo.org")
   )
 
 (defun assignckeys ()
@@ -282,7 +282,7 @@
  '(flyspell-default-dictionary "deutsch")
  '(nxhtml-load t)
  '(nxhtml-skip-welcome t)
- '(org-agenda-files (quote ("/home/enko/daten/.todo.org" "/home/enko/daten/.cal.org")))
+ '(org-agenda-files (quote ("/home/enko/.todo.org")))
  '(org-agenda-start-on-weekday nil)
  '(org-lowest-priority 90)
  '(sgml-xml-mode t)

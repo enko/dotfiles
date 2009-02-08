@@ -136,6 +136,7 @@
          ("<conkeror.mozdev.org>" . "%INBOX/Verteiler/conkeror")
 	 ("news.thueringen.listi.jpberlin.de" . "%INBOX/Verteiler/thurbdpnews")
 	 ("help-emacs-windows.gnu.org" . "%INBOX/Verteiler/Help-Emacs-Windows")
+	 ("thueringen-vernetzung.listi.jpberlin.de" . "%INBOX/Verteiler/thurvern")
          ("^Elisp" . "+elisp"))
       (("To" "Cc")
 	("chaostreffs@lists.ccc.de" . "%INBOX/Verteiler/chaostreffs"))

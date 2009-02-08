@@ -8,13 +8,6 @@ function set_my_prompt() {
     typeset -A features
     local featuremap=""
 
-    # {{{ GIT Branch
-    if [[ $vcs_info_msg_0_ != "" ]]; then
-	features["vcs"]="─[$fg_bold[green]$vcs_info_msg_0_$reset_color]"
-	featuremap="$featuremap vcs"
-    fi;
-    # }}} GIT Branch
-
     # {{{ Battery Stuff
     local batstate=""
     if [[ $HOST == "kaos" ]]; then 
@@ -152,7 +145,7 @@ function set_my_prompt() {
     # }}} Wireless stuff
 
     # lets calculate the fillwidth with the given features in the featuremap
-    (( AVIABLEWIDTH = $COLUMNS - ( 26 + $usersize + $hostsize + ${#${mydate}} ) ))
+    (( AVIABLEWIDTH = $COLUMNS - ( 12 + $usersize + $hostsize + ${#${mydate}} ) ))
     #replacechars="$reset_color$fg_bold$fg"
     for feat in ${(s: :)featuremap}; do	
 	(( AVIABLEWIDTH = $AVIABLEWIDTH - ${#${features["${feat}_raw"]}}))

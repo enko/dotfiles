@@ -1,0 +1,130 @@
+!URxvt.background:  rgba:0000/0000/0000/AAAA
+!URxvt.depth: 32
+URxvt.background:  rgba:0000/0000/0000/9999
+URxvt.depth: 16
+URxvt.transparent: true
+URxvt.shading: 8
+URxvt.tintColor: rgb:eeee/eeee/eeee
+URxvt.fading: 70
+URxvt.fadeColor: grey
+URxvt.foreground: white
+URxvt.scrollBar: false
+URxvt.font: xft:Bitstream Vera Sans Mono:size=12:antialias=true
+URxvt.secondaryScroll: true
+URxvt.saveLines: 10000
+URxvt.keysym.Control-Tab: ^An
+URxvt.termName: rxvt
+URxvt.urgentOnBell: true
+URxvt.visualBell: true
+URxvt.keysym.M-C-1: command:\033]710;xft:Bitstream Vera Sans Mono:size=8:antialias=true\007\033]711;xft:Bitstream Vera Sans Mono:size=8:antialias=true\007
+URxvt.keysym.M-C-2: command:\033]710;xft:Bitstream Vera Sans Mono:size=12:antialias=true\007\033]711;xft:Bitstream Vera Sans Mono:size=12:antialias=true\007
+URxvt.Keysym.M-C-3: command:\033]710;xft:Bitstream Vera Sans Mono:size=40:antialias=true\007\033]711;xft:Bitstream Vera Sans Mono:size=40:antialias=true\007
+
+
+URxvt*color0:  rgb:2e2e/3434/3636
+URxvt*color1:  rgb:cccc/0000/0000
+URxvt*color2:  rgb:4e4e/9a9a/0606
+URxvt*color3:  rgb:c4c4/a0a0/0000
+URxvt*color4:  rgb:3434/6565/a4a4
+URxvt*color5:  rgb:7575/5050/7b7b
+URxvt*color6:  rgb:0606/9820/9a9a
+URxvt*color7:  rgb:d3d3/d7d7/cfcf
+URxvt*color8:  rgb:5555/5757/5353
+URxvt*color9:  rgb:efef/2929/2929
+URxvt*color10: rgb:8a8a/e2e2/3434
+URxvt*color11: rgb:fcfc/e9e9/4f4f
+URxvt*color12: rgb:7272/9f9f/cfcf
+URxvt*color13: rgb:adad/7f7f/a8a8
+URxvt*color14: rgb:3434/e2e2/e2e2
+URxvt*color15: rgb:eeee/eeee/ecec
+
+XTerm*Background:  black
+! XTerm*depth: 2
+! XTerm*transparent: true
+! XTerm*fading: 100
+! XTerm*fadeColor: grey
+! XTerm*shading: 50
+XTerm*Foreground: white
+XTerm*scrollBar: false
+XTerm*Font: xft:Terminus:pixelsize=12
+XTerm*secondaryScroll: true
+XTerm*saveLines: 10000
+XTerm*Keysym.Control-Tab: ^An
+! XTerm*Termname: rxvt
+XTerm*urgentOnBell: true
+XTerm*Keysym.M-C-1: command:\033]710;xft:Terminus:pixelsize=12\007\033]711;xft:Terminus:pixelsize=12\007
+XTerm*Keysym.M-C-2: command:\033]710;xft:Terminus:pixelsize=20\007\033]711;xft:Terminus:pixelsize=72\007
+XTerm*Keysym.M-C-3: command:\033]710;xft:Terminus:pixelsize=20\007\033]711;xft:DejaVu Sans Mono:pixelsize=72\007
+
+XTerm*Color0:  rgb:2e2e/3434/3636
+XTerm*Color1:  rgb:cccc/0000/0000
+XTerm*Color2:  rgb:4e4e/9a9a/0606
+XTerm*Color3:  rgb:c4c4/a0a0/0000
+XTerm*Color4:  rgb:3434/6565/a4a4
+XTerm*Color5:  rgb:7575/5050/7b7b
+XTerm*Color6:  rgb:0606/9820/9a9a
+XTerm*Color7:  rgb:d3d3/d7d7/cfcf
+XTerm*Color8:  rgb:5555/5757/5353
+XTerm*Color9:  rgb:efef/2929/2929
+XTerm*Color10: rgb:8a8a/e2e2/3434
+XTerm*Color11: rgb:fcfc/e9e9/4f4f
+XTerm*Color12: rgb:7272/9f9f/cfcf
+XTerm*Color13: rgb:adad/7f7f/a8a8
+XTerm*Color14: rgb:3434/e2e2/e2e2
+XTerm*Color15: rgb:eeee/eeee/ecec
+
+
+
+
+Xcursor.theme: Vanilla-DMZ-AA
+
+Emacs.FontBackend: xft
+Emacs.font: Bitstream Vera Sans Mono-12
+
+
+
+! xfontsel - just makes is look less ugly.
+XFontSel*menu*showUnselectable: false
+XFontSel*MenuButton.shadowWidth: 2
+XFontsel*Toggle*ToggleStyle: check
+XFontsel*MenuButton*Justify:    left
+XFontsel*MenuButton*MenuButtonStyle: select
+.xfontsel.pane.commandBox.quitButton.background: #204A87
+.xfontsel.pane.commandBox.quitButton.foreground: #DEDEDE
+.xfontsel.pane.commandBox.ownButton.background: #628ABE
+.xfontsel.pane.commandBox.ownButton.foreground: #DEDEDE
+.xfontsel.pane.commandBox.countLabel.background: #DEDEDE
+.xfontsel.pane.viewPort.sampleText.background: #204A87
+.xfontsel.pane.viewPort.sampleText.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field0.background: #2B4F98
+.xfontsel.pane.fieldBox.field0.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field1.background: #2B4F98
+.xfontsel.pane.fieldBox.field1.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field2.background: #2B4F98
+.xfontsel.pane.fieldBox.field2.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field3.background: #2B4F98
+.xfontsel.pane.fieldBox.field3.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field4.background: #2B4F98
+.xfontsel.pane.fieldBox.field4.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field5.background: #2B4F98
+.xfontsel.pane.fieldBox.field5.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field6.background: #2B4F98
+.xfontsel.pane.fieldBox.field6.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field7.background: #2B4F98
+.xfontsel.pane.fieldBox.field7.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field8.background: #2B4F98
+.xfontsel.pane.fieldBox.field8.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field9.background: #2B4F98
+.xfontsel.pane.fieldBox.field9.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field10.background: #2B4F98
+.xfontsel.pane.fieldBox.field10.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field11.background: #2B4F98
+.xfontsel.pane.fieldBox.field11.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field12.background: #2B4F98
+.xfontsel.pane.fieldBox.field12.foreground: #DEDEDE
+.xfontsel.pane.fieldBox.field13.background: #2B4F98
+.xfontsel.pane.fieldBox.field13.foreground: #DEDEDE
+.xfontsel.pane.fieldBox*foreground: #000000
+.xfontsel.pane.fieldBox.MenuButton.borderWidth: 1
+.xfontsel.pane.fieldBox.MenuButton.internalHeight: 2
+.xfontsel.pane.fieldBox.MenuButton.internalWidth: 3  
